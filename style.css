@@ -5,10 +5,13 @@ body{
 h1{
     font-size: 50px;
 }
+h2{
+    font-size: 35px;
+}
 .color{
     color: orange;
 }
-section{
+.flexible-container{
     display: flex;
     margin-bottom: 150px;
 }
@@ -35,4 +38,30 @@ section{
     background-image: url(kissclipart-education-clipart-arrow-symbol-infogram-5e9b85018c04cf12.png);
     background-position: right;
     background-repeat: no-repeat;
+}
+.experiences-area{
+    background-image: url(images/ryethwdi.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.experiences-item{
+    width: 40%;
+    padding: 20px;
+    box-shadow: 10px 10px 40px gray;
+    margin-left: 5%;
+    margin-right: 5%;
+    border-radius: 10px;
+}
+#web2{
+    border-left:7px solid;
+    border-image: linear-gradient(blue,cyan);
+    border-image-slice: 1;
+}
+#web1{
+    border-left:7px solid;
+    border-image: linear-gradient(tomato,orange);
+    border-image-slice: 1;
+}
+footer p{
+    text-align: center;
 }
